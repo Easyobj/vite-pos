@@ -1,0 +1,43 @@
+const AuthorizationApprovalPage = {
+  title: '委托审批',
+  subTitle:
+    '支持查看、取消同一经销商下的所有委托审批，同时您可直接发起本人或其他审批人（同一经销商下）的委托。',
+  initiateDelegate: '发起委托',
+  modalTitle: '发起委托',
+  okButtonText: '发起',
+  selectPrincipalUser: '委托人',
+  selectPrincipalUserTooltip: '委托人的可选范围为具有审批权限的员工，系统支持您直接为其发起委托',
+  selectPrincipalUserFilterPlaceholder: '按用户名/PPN账号搜索',
+  selectPrincipalUserRuleMessage: '请选择委托人',
+  selectDeputyUser: '代理人',
+  selectDeputyUserTooltip: '代理人的可选范围为与您在同一经销商下的所有员工',
+  selectDeputyUserRuleMessage: '请选择代理人',
+  selectDealer: '委托门店',
+  selectDealerFilterPlaceholder: '按门店名称搜索',
+  selectDealerRuleMessage: '请选择委托门店',
+  selectDateRangePlaceholderStart: '开始日期',
+  selectDateRangePlaceholderEnd: '结束日期',
+  selectDateRangeLabel: '委托日期',
+  selectDateRangeTooltip:
+    '委托期间，代理人将帮委托人处理委托门店的所有审批任务（包括新车与易手车）。时间到期或手动取消后，系统将收回代理人的权限。',
+  selectDateRangeRuleMessage: '请选择委托日期',
+  delegateSuccessMessage: '委托成功',
+  modalSubtitle:
+    '发起委托后，代理人将有权处理委托人的审批单（但不含委托人已代理的审批单），同时APP端将自动发送委托通知至代理人',
+  available: '待生效',
+  awaiting: '生效中',
+  canceled: '已失效',
+  unavailable: '已取消',
+  statusList: '委托状态',
+  confirmCancelDelegate: '确定取消委托？',
+  confirmCancelDelegateContent: '取消委托后，代理人将无法处理审批单。确定取消委托吗？',
+  cancelDelegateButton: '取消委托',
+  createTime: '创建时间',
+  action: '操作',
+  noResults: '当前搜索无结果',
+  tryAnotherKeyword: '换个关键词或筛选条件试试',
+  noData: '暂无数据',
+  totalData: '共 0 条数据',
+};
+
+export default AuthorizationApprovalPage;

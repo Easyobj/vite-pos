@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "esnext",
     "lib": ["esnext", "dom"],
-    "module": "ESNext",
+    "module": "esnext",
     "skipLibCheck": true,
 
     /* Bundler mode */

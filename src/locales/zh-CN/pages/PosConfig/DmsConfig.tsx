@@ -1,0 +1,25 @@
+const DmsConfig = {
+  dmsTitle: 'DMS分类和映射',
+  dmsCategoryTab: 'DMS附加业务分类查询',
+  dmsMappingTab: 'DMS附加业务分类映射关系',
+  dmsCategory: 'DMS附加业务分类的可选项归类',
+  dmsPlaceholder: '请选择DMS附加业务分类',
+  posCategoryPlaceholder: '请选择POS报价可选项分类',
+  getSuccess: '获取成功',
+  deleteDms: '是否确认删除当前DMS匹配关系？',
+  posCategoryDesc: 'POS报价可选项分类',
+  businessTypeDesc: 'DMS附加业务分类',
+  isDefault: '可选项默认项',
+  dmsMappingTitle: 'DMS附加业务分类映射关系配置',
+  dmsMappingDesc: 'POS报价可选项分类与DMS附加业务分类的映射关系，会影响DMS中费用分配。',
+  allCategory: '全部分类',
+  emptyDesc: '换个POS报价可选项分类试试',
+  loading: '数据加载中...',
+  businessType: 'DMS附加业务分类（英文）',
+  businessTypeDesc2: '类名描述（POS页面展示）',
+  dmsBusinessTypeSync: '获取DMS附加业务分类',
+  searchPlaceholder: '按照DMS附加业务分类（英文）或类名描述搜索',
+  search: '搜索',
+};
+
+export default DmsConfig;
